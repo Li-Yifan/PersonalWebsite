@@ -4,12 +4,12 @@ $(function() {
         enterButton = welcomeSection.find('.enter-button');
 
   setTimeout(function() {
-        $('.fly-in-text').removeClass('hidden');
-    }, 500); d
+        welcomeSection.removeClass('content-hidden');
+    }, 500);
+
+    enterButton.on('click', function(e) {
+      e.preventDefault();
+      welcomeSection.addClass('content-hidden').fadeOut();
+    });
 
 })();
-
-enterButton.on('click', function(e) {
-  e.preventDefault();
-  welcomeSection.addClass('content-hidden').fadeOut();
-});
