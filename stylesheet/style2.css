@@ -1,0 +1,89 @@
+body{
+  margin-top: 70px;
+
+}
+
+/*setting all the header to the same font family*/
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Waiting for the Sunrise';
+}
+
+
+/*setting all the paragraph to the same font family*/
+p {
+  font-family: cursive;
+}
+.navbar-default {
+  background: 	#F0F8FF;
+  border: 0;
+  font-style: Sunrise;
+  /*font-family: 'Waiting for the Sunrise';*/
+}
+
+.navbar-brand{
+  font-size: 20px;
+  color: #ff0000 !important;
+  /*!important means if will overwrite anyother style */
+  font-weight: bold;
+  font-family: 'Waiting for the Sunrise';
+}
+
+.mysite-left {
+  size: 30px;
+
+}
+
+
+/*dealing with the size of the img of my handsome photo lol*/
+#mysite img{
+  width: 80%;
+  height: 10%;
+  length: 50%;
+  margin-left: 30px;
+  border-radius: 30%;
+
+}
+
+#interest img{
+  width: 500px;
+}
+#mysite h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mtsite-btn {
+  size: 100px;
+}
+#mysite .mysite-right {
+  margin-top: 90px;
+}
+
+#myskill{
+  margin-top:20px;
+  background-color: 	#F0F8FF;
+  text-align: center;
+
+}
+#myskill .box .box1 .box2 .box3{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#interest .info-right1 img{
+  width: 350px;
+}
+#interest .info-right2 img{
+  width: 400px;
+}
+#myskill .box1 img{
+  width: 40px;
+}
+
+#myskill .box2 img{
+  width: 40px;
+}
+#myskill .box3 img{
+  width: 40px;
+}

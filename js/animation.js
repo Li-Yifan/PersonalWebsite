@@ -13,3 +13,8 @@ $(function() {
     });
 
 })();
+
+
+function visitPage(){
+  window.location = 'secondPage.html';
+}
