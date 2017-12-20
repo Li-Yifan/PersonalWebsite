@@ -75,7 +75,13 @@ p {
   width: 350px;
 }
 #interest .info-right2 img{
+  /*padding: 40px;*/
   width: 400px;
+}
+
+#interest .info-right2{
+  padding: 40px;
+  /*width: 400px;*/
 }
 #myskill .box1 img{
   width: 40px;
